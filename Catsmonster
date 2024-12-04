@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котики в стиле Monster High</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Котики в стиле Monster High</h1>
+    </header>
+
+    <section class="intro">
+        <p>Добро пожаловать в мир самых стильных и мистических котиков! Здесь можно найти уникальных питомцев, которые добавят магии в вашу жизнь.</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Галерея котиков</h2>
+        <div class="image-container">
+            <img src="cat1.jpg" alt="Котик 1">
+            <img src="cat2.jpg" alt="Котик 2">
+            <img src="cat3.jpg" alt="Котик 3">
+        </div>
+    </section>
+
+    <section class="shop">
+        <h2>Покупка котиков</h2>
+        <p>У нас вы можете купить уникальных котиков, которые идеально впишутся в вашу коллекцию! Каждый котик имеет свою индивидуальность и стиль.</p>
+        <div class="cat-info">
+            <div class="cat-item">
+                <img src="cat1.jpg" alt="Котик 1">
+                <h3>Котик №1</h3>
+                <p>Этот котик — настоящий маг! Он всегда рядом, когда вам нужно вдохновение.</p>
+                <p class="price">Цена: 2000 ₽</p>
+                <button class="buy-button">Купить</button>
+            </div>
+            <div class="cat-item">
+                <img src="cat2.jpg" alt="Котик 2">
+                <h3>Котик №2</h3>
+                <p>С этим котиком будет весело! Он всегда полон энергии и готов к приключениям.</p>
+                <p class="price">Цена: 2500 ₽</p>
+                <button class="buy-button">Купить</button>
+            </div>
+            <div class="cat-item">
+                <img src="cat3.jpg" alt="Котик 3">
+                <h3>Котик №3</h3>
+                <p>Этот котик — символ грации и утонченности. Он привнесет магию в ваш дом.</p>
+                <p class="price">Цена: 3000 ₽</p>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>О наших котиках</h2>
+        <p>Наши котики — это не просто милые животные, это настоящие звезды мира монстров! Каждый котик уникален и обладает магическими свойствами.</p>
+    </section>
+
+    <footer>
+        <p>Контакты: <a href="mailto:info@catsmonster.com">info@catsmonster.com</a></p>
+    </footer>
+</body>
+</html>
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8e44ad;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Creepster', sans-serif;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.intro {
+    background-color: #f9d6e4;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #7f3e58;
+}
+
+.gallery {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.gallery h2 {
+    color: #8e44ad;
+    font-family: 'Creepster', sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #8e44ad;
+    border-radius: 10px;
+}
+
+.shop {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shop h2 {
+    color: #8e44ad;
+    font-family: 'Creepster', sans-serif;
+    margin-bottom: 20px;
+}
+
+.cat-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cat-item {
+    background-color: #f9d6e4;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cat-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cat-item h3 {
+    color: #7f3e58;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cat-item .price {
+    color: #8e44ad;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.buy-button {
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #7b3a8d;
+}
+
+.about {
+    background-color: #f9d6e4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #8e44ad;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #f9d6e4;
+    text-decoration: none;
+}
+
